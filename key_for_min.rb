@@ -4,7 +4,7 @@ require 'pry'
 
 def key_for_min_value(hash)
   x = 1
-  hash.collect do |i,price| 
+  hash.each do |i,price| 
   if price < x 
     x = price
     price
