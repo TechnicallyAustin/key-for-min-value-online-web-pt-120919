@@ -3,5 +3,10 @@
 
 def key_for_min_value(hash)
   x = 0
-  hash.detect { |i,price| 
+  hash.collect do |i,price| 
+  if price > x 
+    x = price
+    price
+end
+hash[x]
 end
