@@ -9,5 +9,5 @@ def key_for_min_value(hash)
     price
 end
 end
-hash[x]
+hash["#{x}"]
 end
