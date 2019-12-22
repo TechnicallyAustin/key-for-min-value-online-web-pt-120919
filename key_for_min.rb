@@ -8,5 +8,6 @@ def key_for_min_value(hash)
     x = price
     price
 end
+end
 hash[x]
 end
